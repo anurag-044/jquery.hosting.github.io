@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+    </head>
+<body>
+    <!-- <form action="index.html" method="get"> -->
+    <div id="task-div">
+        <h2>Add Task and Description </h2>
+       
+            <label for="" class="label">Title</label>
+            
+            <input type="text" name="title" id="title">
+            <label for="" id="title_l"></label>
+            <br>
+            <label for="" class="label">Description</label>
+            <input type="text" name="" id="desc">
+            <label for="" id="desc_l"></label>
+            <br>
+    
+            <button id="addtask">Add Task</button>
+       
+    </div>
+
+    <div id="user-div">
+        <h2>Add User </h2>
+            <label for="" class="label">Name</label>
+            
+            <input type="text" name="name" id="name">
+            <label for="" id="name_l"></label>
+            <br>
+            <label for="" class="label">Email</label>
+            <input type="text" name="" id="email">
+            <label for="" id="email_l"></label>
+            <br>
+    
+            <button id="adduser">Add User</button>
+       
+    </div>
+
+    <div id="task-user-div">
+        <h2>Assign Task to user</h2>
+
+            <label for="" class="label">Title</label>
+            
+            <input type="text" name="title" id="project">
+            <input type="text" id="project-description" hidden>
+            <label for="" id="title_l-give"></label>
+            <br>   
+        
+            <label for="" class="label">Name</label>
+            
+            <input type="text" name="name" id="name-give">
+            <label for="" id="name_l-give"></label>
+
+            <br>
+            
+    
+            <button id="givetask">Assign Task</button>
+       
+    </div>
+
+
+<div id="mydata"></div>
+
+
+</body>
+</html>
